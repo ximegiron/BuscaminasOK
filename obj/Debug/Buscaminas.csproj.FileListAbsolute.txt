@@ -1,0 +1,6 @@
+E:\SAE AERODESIGN\Programación\BuscaminasEjemplo-master\BuscaminasEjemplo-master\Buscaminas\obj\Debug\Buscaminas.csprojAssemblyReference.cache
+E:\SAE AERODESIGN\Programación\BuscaminasEjemplo-master\BuscaminasEjemplo-master\Buscaminas\bin\Debug\Buscaminas.exe.config
+E:\SAE AERODESIGN\Programación\BuscaminasEjemplo-master\BuscaminasEjemplo-master\Buscaminas\bin\Debug\Buscaminas.exe
+E:\SAE AERODESIGN\Programación\BuscaminasEjemplo-master\BuscaminasEjemplo-master\Buscaminas\bin\Debug\Buscaminas.pdb
+E:\SAE AERODESIGN\Programación\BuscaminasEjemplo-master\BuscaminasEjemplo-master\Buscaminas\obj\Debug\Buscaminas.exe
+E:\SAE AERODESIGN\Programación\BuscaminasEjemplo-master\BuscaminasEjemplo-master\Buscaminas\obj\Debug\Buscaminas.pdb
