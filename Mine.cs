@@ -1,4 +1,5 @@
-﻿using System;
+﻿//ximena
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,6 +14,10 @@ namespace Buscaminas
 
         private Celda.Status status;
 
+        public Mine()
+        {
+            this.status = Celda.Status.SHOWN;
+        }
         public Celda.Status GetStatus()
         {
 
@@ -21,22 +26,26 @@ namespace Buscaminas
 
         public int GetValue()
         {
-            throw new NotImplementedException();    
+            return 0; //throw new NotImplementedException();    
         }
 
         public bool IsHidden()
         {
-            throw new NotImplementedException();
+            return false;
         }
 
         public void LeftClick()
         {
-            throw new NotImplementedException();
         }
 
         public void RightClick()
         {
-            throw new NotImplementedException();
+          
         }
+
+        //public void SetValue(int v)
+        //{
+        //    throw new NotImplementedException();
+        //}
     }
 }

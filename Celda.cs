@@ -1,4 +1,5 @@
-﻿using System;
+﻿//ximena
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,7 +17,7 @@ namespace Buscaminas
             QUESTION
         }
 
-        private int valor;
+        public int valor;
         private int x;
         private int y;
 
@@ -24,7 +25,7 @@ namespace Buscaminas
 
         public Celda()
         {
-            this.status = Status.FLAG;
+            this.status = Status.SHOWN;
         }
 
         public int GetValue()
@@ -51,5 +52,10 @@ namespace Buscaminas
         {
             return this.status;
         }
+
+        //public void SetValue(int v)
+        //{
+        //    throw new NotImplementedException();
+        //}
     }
 }

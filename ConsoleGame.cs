@@ -1,4 +1,5 @@
-﻿using System;
+﻿//ximena
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -38,16 +39,16 @@ namespace Buscaminas
                 Console.ForegroundColor = ConsoleColor.White;
                 for (uint j = 0; j < this.width; j++)
                 {
-                    switch (this.celdas[j, i].GetStatus())
+                    switch (this.celdas[j, i].cell.GetStatus())
                     {
                         case Celda.Status.SHOWN:
-                            if (this.celdas[j, i] is Mine) //Comprobar tipo de dato
+                            if (this.celdas[j, i].cell is Mine) //Comprobar tipo de dato
                             {
                                 printingValue = this.mineCell.ToString();
                             }
                             else 
                             {
-                                printingValue = "" + this.celdas[j, i].GetValue();
+                                printingValue = "" + this.celdas[j, i].cell.GetValue();
                             }
                           break;
                         case Celda.Status.FLAG:

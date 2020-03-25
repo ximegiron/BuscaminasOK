@@ -1,4 +1,5 @@
-﻿namespace Buscaminas //Cambiar el nombre del namespace
+﻿//ximena
+namespace Buscaminas //Cambiar el nombre del namespace
 {
     interface ICell 
     {
@@ -7,5 +8,6 @@
         Celda.Status GetStatus();
         void LeftClick();
         void RightClick();
+        //void SetValue(int val);
     }
 }

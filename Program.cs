@@ -1,4 +1,5 @@
-﻿using System;
+﻿//ximena
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,11 +11,11 @@ namespace Buscaminas
     {
         static void Main(string[] args)
         {
-            ConsoleGame<Celda> game = new ConsoleGame<Celda>(6, 7, 5);
+            ConsoleGame<Celda> game = new ConsoleGame<Celda>(6, 7, 10);
             //string a = "10";
             //Console.WriteLine(a.PadLeft(3));
             Console.ReadKey();
-            Celda.Status test = Celda.Status.HIDDEN;
+            //Celda.Status test = Celda.Status.HIDDEN;
 
         }
     }

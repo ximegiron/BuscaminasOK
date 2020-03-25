@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Celda.cs" />
+    <Compile Include="CellNode.cs" />
     <Compile Include="ConsoleGame.cs" />
     <Compile Include="ICell.cs" />
     <Compile Include="Mine.cs" />
